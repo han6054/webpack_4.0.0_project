@@ -1,0 +1,27 @@
+{
+  "name": "webpack-4.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --open --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "expose-loader": "^0.7.5",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.6",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3"
+  }
+}
