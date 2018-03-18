@@ -5,8 +5,12 @@
 安装 `npm i webpack --webpack-cli -D`
 
 #### 1.1 为了使用命令行进行打包，需要在package.json中配置
-
-![](https://user-gold-cdn.xitu.io/2018/3/17/16231d43ae039db8?w=518&h=89&f=png&s=8233)
+```
+ "scripts": {
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --open --mode development"
+  },
+```
 #### 1.2 webpack.config.js配置
 
 ![](https://user-gold-cdn.xitu.io/2018/3/17/1623209fe30c8033?w=274&h=215&f=png&s=11485)
